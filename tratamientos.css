@@ -1,15 +1,28 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  
-  
+  margin-top: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
 
 
+/* ===== Barra de Navegación =====*/
 
+nav.navbar {
+  background-color: rgb(26, 117, 188);
+}
 
+nav.navbar ul.nav li {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;  
+}
+
+nav ul {
+  align-items: center;
+  color: rgb(240, 248, 255);
+  display: flex;
+  font-size: 25px;
+  gap: 100px;
+  list-style-type: none;
+}
 
 
 
@@ -25,7 +38,7 @@ body {
     color: #000000;
     justify-content: center;
     flex-flow: row wrap;
-    padding-top: 5.5em;
+    padding-top: 1.5em;
   }
   .redes h2 {
     text-align: center;
@@ -42,7 +55,7 @@ body {
   
   .list-group {
     align-items: center;
-    gap: 5rem;
+    gap: 80px;
     justify-content: center;
   }
   
@@ -54,7 +67,7 @@ body {
     background-image: url("imagenes/instagram.png");
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: .0938rem;
+    border-radius: 1.5px;
     color: transparent;
     transform: scale(2.5);
     transition: 0.4s ease-in-out;
@@ -64,7 +77,7 @@ body {
     background-image: url("/imagenes/facebook.png");
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: .0938rem;
+    border-radius: 1.5px;
     color: transparent;
     transform: scale(2.5);
     transition: 0.4s ease-in-out;
@@ -74,7 +87,7 @@ body {
     background-image: url("/imagenes/twitter.png");
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: .0938rem;
+    border-radius: 1.5px;
     color: transparent;
     transform: scale(2.5);
     transition: 0.4s ease-in-out;
@@ -84,7 +97,7 @@ body {
     background-image: url("imagenes/WhatsApp.png");
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: .0938rem;
+    border-radius: 1.5px;
     color: transparent;
     transform: scale(2.5);
     transition: 0.4s ease-in-out;
@@ -97,7 +110,7 @@ body {
   }
   
   li {
-    list-style-type: none; /*quita los puntitos de la lista */
+    list-style-type: none; 
     margin-left: -3%;
   }
   
@@ -134,9 +147,9 @@ body {
     color: #45f3ff;
   }
   
-  /* SCROLL */
+  /* ===== SCROLL ===== */
   ::-webkit-scrollbar {
-    width: .9375rem;
+    width: 15px;
   }
   
   ::-webkit-scrollbar-track {

@@ -1,10 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   font-family: "cairo", Helvetica, Arial, sans-serif;
 }
-
 
 
 .contenedor {
@@ -15,6 +14,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: #0984b1;
+ 
 }
 
 /* Tarjetas giratorias */
@@ -25,6 +25,9 @@ body {
   height: 21.875rem;
   margin: 1.25rem;
 }
+
+
+
 
 .tarjeta .face {
   position: absolute;
@@ -69,6 +72,9 @@ body {
   justify-content: space-between;
   text-align: center;
   box-shadow: 0 .3125rem .625rem #000;
+
+  overflow: auto;
+
 }
 
 .tarjeta .back .link {
@@ -145,4 +151,13 @@ body {
   
   ::-webkit-scrollbar-thumb {
     background-color: rgb(26, 117, 188);
-  }
+  } 
+
+
+
+
+
+
+
+
+

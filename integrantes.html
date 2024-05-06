@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Título de la página -->
-    <title>Clínica Odontológica - Turnos Online</title>
+    <title>Clínica Odontológica - Integrantes</title>
 
     <!-- Favicon -->
 
-    <link rel="shortcut icon" href="imagenes/icono1.webp" type="image/x-icon" />
+    <link rel="shortcut icon" href="imagenes/icono1.webp" type="image/x-icon">
     <!-- Linkear la hoja de estilos -->
-    <link rel="stylesheet" href="integrantes.css" />
+    <link rel="stylesheet" href="integrantes.css">
 
     <!-- Bootstrap -->
 
@@ -19,9 +19,8 @@
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
-    />
+    >
   </head>
-
   <body>
     <!-- Barra de Navegación -->
 
@@ -34,10 +33,9 @@
           <img
             src="imagenes/icono1.webp"
             alt="Logo pequeño de la Clínica Odontológica"
-            width="auto"
+            width="40"
             height="40"
-          />
-
+          >
           Clínica Odontológica
         </a>
         <button
@@ -56,9 +54,9 @@
             <a class="nav-link active" aria-current="page" href="index.html"
               >Inicio</a
             >
-            <a class="nav-link" href="quienesSomos.html">Quienes Somos</a>
+            <a class="nav-link" href="index.html#QS">Quienes Somos</a>
             <a class="nav-link" href="tratamientos.html">Tratamientos</a>
-            <a class="nav-link" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="index.html#contacto">Contacto</a>
             <a class="nav-link" href="turnosOnline.html">Turno Online</a>
             <a class="nav-link" href="integrantes.html">Integrantes</a>
           </div>
@@ -66,22 +64,34 @@
       </div>
     </nav>
 
+
     <!-- Tarjetas Giratorias -->
     <div class="contenedor">
-      <div class="tarjeta">
+      <div
+        class="tarjeta"
+        onmouseover="playAudio(this)"
+        onmouseout="pauseAudio(this)"
+      >
         <div class="face front">
+          <audio src="audio/chacareraAñoranzasSgo.mp3"></audio>
+
           <img
             src="imagenes/AlejandroCarabajal.jpg"
-            alt="Foto de un arreglo dental"/>
+            alt="Foto de Alejandro Carabajal"
+          >
+
           <h3>Alejandro Carabajal</h3>
         </div>
 
         <div class="face back">
           <h3>Santiago del Estero</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
-            alias cupiditate voluptates sunt aliquam facilis saepe repudiandae
-            deleniti consequatur suscipit.
+            Nacido en las entrañas de la Madre de Ciudades y siendo un apasionado por la programación, Alejandro encuentra en el mundo del
+            código su mayor fuente de inspiración y creatividad, a pesar de
+            dedicarse principalmente a otra actividad. Apasionado por la
+            programación, Alejandro encuentra en el mundo del código su mayor
+            fuente de inspiración y creatividad, a pesar de dedicarse
+            principalmente a otra actividad.
           </p>
 
           <div class="link">
@@ -94,12 +104,20 @@
         </div>
       </div>
 
-      <div class="tarjeta">
+      <div
+        class="tarjeta"
+        onmouseover="playAudio(this)"
+        onmouseout="pauseAudio(this)"
+      >
         <div class="face front">
+          <audio
+            src="audio/jesusGodoyElMejorRegaloTonadaSanJuan.mp3"
+          ></audio>
+
           <img
             src="imagenes/FavioPereyra.jpeg"
-            alt="Foto de implantes dentales"
-          />
+            alt="Foto de Favio Pereyra"
+          >
           <h3>Favio Pereyra</h3>
         </div>
 
@@ -108,7 +126,10 @@
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
             alias cupiditate voluptates sunt aliquam facilis saepe repudiandae
-            deleniti consequatur suscipit.
+            deleniti consequatur suscipit. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Tenetur, alias cupiditate voluptates
+            sunt aliquam facilis saepe repudiandae deleniti consequatur
+            suscipit.
           </p>
           <div class="link">
             <a
@@ -120,12 +141,17 @@
         </div>
       </div>
 
-      <div class="tarjeta">
+      <div
+        class="tarjeta"
+        onmouseover="playAudio(this)"
+        onmouseout="pauseAudio(this)"
+      >
         <div class="face front">
+          <audio src="audio/CantoDelAlma-LaNocheSalteña.mp3"></audio>
           <img
             src="imagenes/SergioBenitez.jpeg"
-            alt="Foto de una boca con ortodoncia"
-          />
+            alt="Foto de Sergio Benitez"
+          >
           <h3>Sergio Benítez</h3>
         </div>
 
@@ -146,21 +172,34 @@
         </div>
       </div>
 
-      <div class="tarjeta">
+      <div
+        class="tarjeta"
+        onmouseover="playAudio(this)"
+        onmouseout="pauseAudio(this)"
+      >
         <div class="face front">
-          <img src="assets/protesis.jpg" alt="Foto de una prótesis dental" />
-          <h3>Prótesis</h3>
+          <audio src="audio/pongalePorLasHilerasMendoza.mp3"></audio>
+
+          <img
+            src="imagenes/MatiasRossello.jpg"
+            alt="Foto de Matías Rosello"
+          >
+          <h3>Matías Rosello</h3>
         </div>
 
         <div class="face back">
-          <h3>Prótesis</h3>
+          <h3>Mendoza</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
             alias cupiditate voluptates sunt aliquam facilis saepe repudiandae
             deleniti consequatur suscipit.
           </p>
           <div class="link">
-            <a href="#">Casos Clínicos</a>
+            <a
+              href="https://www.argentina.gob.ar/mendoza/simbolos"
+              target="_blank"
+              >Más sobre Mendoza</a
+            >
           </div>
         </div>
       </div>
@@ -172,7 +211,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <span class="copyright">Copyright &copy; Codo a Codo 2024 - Curso 24138 - Grupo 7</span>
+            <span class="copyright"
+              >Copyright &copy; Codo a Codo 2024 - Comisión 24138 - Grupo
+              7</span
+            >
           </div>
 
           <div class="col-md-12">
@@ -198,5 +240,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <script src="integrantes.js"></script>
   </body>
 </html>

@@ -72,9 +72,7 @@ body {
   justify-content: space-between;
   text-align: center;
   box-shadow: 0 .3125rem .625rem #000;
-
   overflow: auto;
-
 }
 
 .tarjeta .back .link {
@@ -110,20 +108,19 @@ body {
 /* ===== SECCION FOOTER ===== */
 
 .footer {
-    display: flex;
-    background: #404040;
-  }
-  
-  footer .container {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    background: #404040;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  
-  footer .copyright {
+ 
+  .copyright {
     display: flex;
     justify-content: center;
     color: #fff;
+    text-align: center;
   }
   
   footer li {
@@ -131,6 +128,7 @@ body {
     justify-content: center;
     align-content: center;
   }
+
   .item a {
     color: #fff;
     text-decoration: none;
@@ -140,7 +138,7 @@ body {
     color: #45f3ff;
   }
   
-  /* SCROLL */
+  /* ===== SCROLL DE LA PÁGINA===== */
   ::-webkit-scrollbar {
     width: .9375rem;
   }
@@ -153,11 +151,16 @@ body {
     background-color: rgb(26, 117, 188);
   } 
 
-
-
-
-
-
-
-
-
+/* === SCROLL DE LAS TARJETAS === */
+  .tarjeta .face::-webkit-scrollbar-track{
+    
+      background-color: rgb(181, 181, 181);
+      border-radius: 0 .625rem .625rem 0;
+    }
+    
+    .tarjeta .face::-webkit-scrollbar-thumb {
+      background-color: rgb(26, 117, 188);
+      border-radius: 0 .625rem .625rem 0;
+    } 
+    
+  

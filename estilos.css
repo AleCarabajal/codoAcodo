@@ -426,26 +426,25 @@ li {
 /* ===== SECCION FOOTER ===== */
 
 .footer {
+  align-items: center;
   background: #404040;
   display: flex;
-}
-
-footer .container {
-  align-items: center;
-  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-footer .copyright {
-  color: #fff;
+.copyright {
   display: flex;
+  justify-content: center;
+  color: #fff;
   text-align: center;
 }
 
 footer li {
-  align-content: center;
   display: flex;
   justify-content: center;
+  padding-right: 2rem;
 }
 
 .item a {
@@ -456,6 +455,16 @@ footer li {
 .item a:hover {
   color: #45f3ff;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* ===== SCROLL ===== */
 ::-webkit-scrollbar {

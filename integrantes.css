@@ -126,7 +126,7 @@ body {
   footer li {
     display: flex;
     justify-content: center;
-    align-content: center;
+    padding-right: 2rem;
   }
 
   .item a {

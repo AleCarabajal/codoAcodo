@@ -143,6 +143,10 @@ nav ul {
   margin: 0.9375rem;
 }
 
+.rama .fa-solid{
+  color:rgb(26, 117, 188);
+}
+
 /* ===== FORMULARIO DE CONTACTO ===== */
 
 .seccionContacto {

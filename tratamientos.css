@@ -197,3 +197,13 @@ nav ul {
   ::-webkit-scrollbar-thumb {
     background-color: rgb(26, 117, 188);
   }
+
+
+
+
+  @media (max-width: 508px) {
+    h3{
+       text-align: center;
+    }
+
+  }

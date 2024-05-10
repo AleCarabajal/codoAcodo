@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 /* Tipo de fuente (Google Fonts) */
 p {
-  font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
-  }
+  font-family: "Raleway", Helvetica, Arial, Lucida, sans-serif;
+}
 h1 {
-    font-family:  'Raleway', Helvetica, Arial, Lucida, sans-serif;
-    }
+  font-family: "Raleway", Helvetica, Arial, Lucida, sans-serif;
+}
 
 body {
   background-color: rgb(255, 255, 255);
@@ -13,17 +13,14 @@ body {
   padding: 0;
 }
 
-
-
 /* ===== Barra de Navegación ===== */
 
 nav.navbar {
-  background-color: rgb(26, 117, 188); 
+  background-color: rgb(26, 117, 188);
 }
 
 nav.navbar ul.nav li {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-
 }
 
 nav ul {
@@ -35,7 +32,7 @@ nav ul {
   list-style-type: none;
 }
 
-.carousel{
+.carousel {
   margin-top: 4.0625rem;
 }
 
@@ -48,125 +45,112 @@ nav ul {
   height: 25rem;
 }
 
-
 /* ===== Tarjetas Marketing ===== */
 
-.cards{
+.cards {
   display: grid;
-  margin: 0 .3125rem 0 .3125rem;
+  margin: 0 0.3125rem 0 0.3125rem;
 }
 
-
-.card{
+.card {
   align-items: center;
-  border: .0625rem solid black;
+  border: 0.0625rem solid black;
   display: flex;
   flex-direction: column;
-  margin: .3125rem;
-  
+  margin: 0.3125rem;
 }
 
-.card .content{
+.card .content {
   flex-grow: 1;
   flex-shrink: 1;
-  padding: .625rem;
+  padding: 0.625rem;
 }
 
-.mision{
+.mision {
   background-color: rgb(221, 255, 228);
-  border-radius: 0 0 .3125rem .3125rem;
+  border-radius: 0 0 0.3125rem 0.3125rem;
 }
-.vision{
+.vision {
   background-color: rgb(204, 175, 232);
-  border-radius: 0 0 .3125rem .3125rem;
+  border-radius: 0 0 0.3125rem 0.3125rem;
 }
-.valores{
+.valores {
   background-color: rgb(159, 243, 248);
-  border-radius: 0 0 .3125rem .3125rem;
+  border-radius: 0 0 0.3125rem 0.3125rem;
 }
-.card img{
+.card img {
   border-radius: 9.375rem;
   height: 8.75rem;
   width: 8.75rem;
 }
 
-.card h1{
+.card h1 {
   text-align: center;
 }
 
-.card p{
+.card p {
   margin: 10px;
   text-align: justify;
 }
 
-
 /* ===== Quienes Somos ===== */
-.somos{
+.somos {
   background-color: rgb(214, 214, 214);
 }
 
-.somos h2{
-  padding: 1.5625rem 0 0 .9375rem;
+.somos h2 {
+  padding: 1.5625rem 0 0 0.9375rem;
 }
-.somos p{
-  margin: .625rem .3125rem;
-  padding: .625rem;
+.somos p {
+  margin: 0.625rem 0.3125rem;
+  padding: 0.625rem;
   text-align: justify;
 }
-
 
 /* ===== Descripción de los profesionales ===== */
 
-.profesionales{
-  margin: 0 .3125rem 0 .3125rem;
+.profesionales {
+  margin: 0 0.3125rem 0 0.3125rem;
 }
 
-.odos{
+.odos {
   align-items: center;
-  background-color:  rgb(189, 189, 189);
-  border: #404040 solid .0625rem;
+  background-color: rgb(189, 189, 189);
+  border: #404040 solid 0.0625rem;
   color: #000000;
   display: flex;
   flex-direction: row;
-  margin: .125rem;
-  text-align: justify;
-  padding: .625rem;
+  margin: 0.125rem;
+  padding: 0.625rem;
 }
 
+.odos .rama {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.625rem;
+  text-align: justify;
+}
 
+.odos img {
+  align-items: flex-start;
+  border: 0.125rem solid rgb(169, 167, 167);
+  border-radius: 0.625rem;
+  box-shadow: 0.1875rem 0.1875rem 0.3125rem rgba(0, 0, 0, 0.5);
+  width: 7.5rem;
+}
 
-.odos .rama{
-    flex-grow: 1;
-    flex-shrink: 1;
-    padding: .625rem;
- }
-
-
-  .odos img{
-    align-items:flex-start;
-    border: .125rem solid rgb(169, 167, 167);
-    border-radius: .625rem;
-    box-shadow: .1875rem .1875rem .3125rem rgba(0, 0, 0, 0.5);
-    width: 7.5rem;
- }
-
-  .odos h5{
-    margin: .9375rem;
-  }
-
-
-
-
+.odos h5 {
+  margin: 0.9375rem;
+}
 
 /* ===== FORMULARIO DE CONTACTO ===== */
-  
+
 .seccionContacto {
   align-items: center;
-  background-color:  rgb(26, 117, 188);
+  background-color: rgb(26, 117, 188);
   color: rgb(255, 255, 255);
   display: flex;
 }
-
 
 .container {
   padding: 1.25rem;
@@ -175,7 +159,7 @@ nav ul {
 
 .container h2 {
   font-size: 2.25rem;
-  margin-bottom: .625rem;
+  margin-bottom: 0.625rem;
   text-align: center;
   width: 100%;
 }
@@ -184,12 +168,12 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   position: relative;
-  width: 100%; 
+  width: 100%;
 }
 
 .container .row100 .col {
-  margin: 1.875rem 0 .625rem;
-  padding: 0 .625rem;
+  margin: 1.875rem 0 0.625rem;
+  padding: 0 0.625rem;
   position: relative;
   transition: 0.5s;
   width: 100%;
@@ -211,7 +195,7 @@ nav ul {
   font-size: 1.125rem;
   height: 100%;
   outline: none;
-  padding: 0 .625rem;
+  padding: 0 0.625rem;
   position: absolute;
   width: 100%;
   z-index: 1;
@@ -221,7 +205,7 @@ nav ul {
   font-size: 1.125rem;
   left: 0;
   line-height: 2.5rem;
-  padding: 0 .625rem;
+  padding: 0 0.625rem;
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -236,10 +220,10 @@ nav ul {
 
 .container .row100 .inputBox .line {
   background: rgb(198, 198, 198);
-  border-radius: .125rem;
+  border-radius: 0.125rem;
   bottom: 0;
   display: block;
-  height: .125rem;
+  height: 0.125rem;
   pointer-events: none;
   position: absolute;
   transition: 0.5s;
@@ -253,7 +237,7 @@ nav ul {
 
 .container .row100 .inputBox .textarea {
   height: 6.25rem;
-  padding: .625rem 0;
+  padding: 0.625rem 0;
   position: relative;
   width: 100%;
 }
@@ -277,25 +261,24 @@ nav ul {
 input[type="submit"] {
   background: rgb(198, 198, 198);
   border: none;
-  border-radius: .125rem;
+  border-radius: 0.125rem;
   color: #000;
   cursor: pointer;
   font-size: 1.125rem;
   outline: none;
-  padding: .4375rem 2.1875rem;
+  padding: 0.4375rem 2.1875rem;
 }
 
 input[type="submit"]:active {
   opacity: 0.8;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
   background-color: rgb(116, 116, 116);
-  border: #000 .0625rem solid;
+  border: #000 0.0625rem solid;
   color: rgb(250, 255, 255);
   transition: 0.4s ease-in-out;
 }
-
 
 /* ===== Slider ===== */
 
@@ -334,12 +317,6 @@ input[type="submit"]:hover{
   }
 }
 
-
-
-
-
-
-
 /* ===== Redes Sociales ===== */
 .redes {
   align-items: center;
@@ -347,7 +324,7 @@ input[type="submit"]:hover{
   color: #000000;
   justify-content: center;
   flex-flow: row wrap;
-  padding: .9375rem;
+  padding: 0.9375rem;
 }
 .redes h2 {
   text-align: center;
@@ -376,7 +353,7 @@ input[type="submit"]:hover{
   background-image: url("imagenes/instagram.png");
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: .0938rem;
+  border-radius: 0.0938rem;
   color: transparent;
   transform: scale(2.5);
   transition: 0.4s ease-in-out;
@@ -386,7 +363,7 @@ input[type="submit"]:hover{
   background-image: url("/imagenes/facebook.png");
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: .0938rem;
+  border-radius: 0.0938rem;
   color: transparent;
   transform: scale(2.5);
   transition: 0.4s ease-in-out;
@@ -396,7 +373,7 @@ input[type="submit"]:hover{
   background-image: url("/imagenes/twitter.png");
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: .0938rem;
+  border-radius: 0.0938rem;
   color: transparent;
   transform: scale(2.5);
   transition: 0.4s ease-in-out;
@@ -406,7 +383,7 @@ input[type="submit"]:hover{
   background-image: url("imagenes/WhatsApp.png");
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: .0938rem;
+  border-radius: 0.0938rem;
   color: transparent;
   transform: scale(2.5);
   transition: 0.4s ease-in-out;
@@ -456,19 +433,9 @@ footer li {
   color: #45f3ff;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* ===== SCROLL ===== */
 ::-webkit-scrollbar {
-  width: .9375rem;
+  width: 0.9375rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -479,50 +446,45 @@ footer li {
   background-color: rgb(26, 117, 188);
 }
 
-
 /*===== RESPONSIVE =====*/
 @media (min-width: 48rem) {
   #carrusel {
-     display: block;
+    display: block;
   }
 
   .cards {
     grid-template-columns: repeat(3, 1fr);
- }
-
+  }
 }
-
 
 @media only screen and (min-width: 600px) {
   /* Estilos para tablets en orientación horizontal */
-  .container .row100{
+  .container .row100 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
     position: relative;
-    width: 100%; 
+    width: 100%;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
   /* Estilos para tablets en orientación horizontal */
-  .container .row100{
+  .container .row100 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
     position: relative;
-    width: 100%; 
-  }
-
-  .mapa{
     width: 100%;
   }
 
-  .carousel-inner{
+  .mapa {
+    width: 100%;
+  }
+
+  .carousel-inner {
     height: auto;
   }
 
-  .odos{
+  .odos {
     flex-direction: column;
   }
-
 }

@@ -31,8 +31,9 @@ nav ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #dfdfdf;
+  /* background-color: rgb(223, 223, 223); */
   margin-top: 4.0625rem;
+  background-color: #f6f6e2fa;
   }
 
 
@@ -64,9 +65,6 @@ nav ul {
   font-size: 1rem;
   text-align: justify;
 }
-
-
-
 
 
   /* ===== Redes Sociales ===== */

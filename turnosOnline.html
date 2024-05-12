@@ -133,6 +133,7 @@
                     </div>
 
                   </div>
+
                   <div class="grid-item">
                     <label for="emailPaciente" class="form-label"
                       ><b>Correo electrónico:  <span class="">(</span>
@@ -156,8 +157,9 @@
                   </div>
 
                   <div class="grid-item">
-                    <label for="motivoConsulta" class="form-label" required
-                      ><b>Motivo de la consulta:  <span class="">(</span>
+                    <label for="motivoConsulta" class="form-label" 
+                      ><b>Motivo de la consulta:  
+                        <span class="">(</span>
                         <span class="asterisco">*</span>
                         <span class="">)</span></b></label
                     >
@@ -171,7 +173,8 @@
                     </div>
 
 
-                    <select class="form-select" id="motivoConsulta">
+                    <select class="form-select" id="motivoConsulta" required>
+                      <option value="consulta"></option>
                       <option value="consulta">Consulta</option>
                       <option value="tratamiento">Tratamiento</option>
                       <option value="presupuesto">Presupuesto</option>
@@ -179,7 +182,7 @@
                   </div>
                   
                   <div class="grid-item">
-                    <label for="fecha" class="form-label" required
+                    <label for="fecha" class="form-label" 
                       >
 
                
@@ -193,8 +196,9 @@
                         <span class="">)</span>
                       </b>
                     </label>
-                    <input type="date" class="form-control" id="fecha">
+                    <input type="date" class="form-control" id="fecha" required>
                   </div>
+                  
                   <form class="grid-item">
                     <label class="form-label"
                       ><b>Horario que prefieres el turno:  <span class="">(</span>

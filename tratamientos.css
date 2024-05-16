@@ -199,7 +199,7 @@ nav ul {
 
 
 
-  @media (max-width: 508px) {
+  @media only screen and (max-width: 508px) {
     h3{
        text-align: center;
     }

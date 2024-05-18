@@ -1,0 +1,33 @@
+URL Github Repo : https://github.com/AleCarabajal/codoAcodo.git
+
+URL de Netlify : https://comsion24138grupo7.netlify.app/
+
+Sketch Bocetos Web : 
+-Boceto inicio: https://share.sketchpad.app/24/6b8-2a26-90ab7c.png
+-Boceto inicio movil: https://share.sketchpad.app/24/4b6-bd30-a5a0c0.png
+-Boceto tratamientos: https://share.sketchpad.app/24/94d-7a41-db4397.png
+-Boceto tratamientos movil: https://share.sketchpad.app/24/60e-ddaf-6157c3.png
+-Boceto turno online: https://share.sketchpad.app/24/8b6-7d07-64df33.png
+-Boceto turno online movil: https://share.sketchpad.app/24/110-ae38-295660.png
+-Boceto tienda: https://share.sketchpad.app/24/09d-aa69-57ebc6.png
+-Boceto tienda movil: https://share.sketchpad.app/24/12c-175b-a36433.png
+
+
+Fonts : https://fonts.google.com/selection/embed
+
+Iconos : https://fontawesome.com/
+
+Paleta de colores: https://colorhunt.co/palette/053b50176b8764ccc5eeeeee
+
+
+------------------------------------------------------
+
+Paginas de Referencia 
+
+https://www.odmarianabrizuela.com/?gad_source=1#home
+
+https://institutomosse.com/
+
+https://www.dentalcenter.com.ar/
+
+https://dentaltotal.com.ar/

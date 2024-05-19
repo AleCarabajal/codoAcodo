@@ -7,10 +7,10 @@ Sketch Bocetos Web :
 -Boceto inicio movil: https://share.sketchpad.app/24/4b6-bd30-a5a0c0.png
 -Boceto tratamientos: https://share.sketchpad.app/24/94d-7a41-db4397.png
 -Boceto tratamientos movil: https://share.sketchpad.app/24/60e-ddaf-6157c3.png
--Boceto turno online: https://share.sketchpad.app/24/8b6-7d07-64df33.png
--Boceto turno online movil: https://share.sketchpad.app/24/110-ae38-295660.png
--Boceto tienda: https://share.sketchpad.app/24/09d-aa69-57ebc6.png
--Boceto tienda movil: https://share.sketchpad.app/24/12c-175b-a36433.png
+-Boceto turno: https://share.sketchpad.app/24/eb7-4ac4-863665.png
+-Boceto turno movil: https://share.sketchpad.app/24/b0a-ada8-0dd725.png
+-Boceto tienda: https://share.sketchpad.app/24/05e-2857-c6e010.png
+-Boceto tienda movil: https://share.sketchpad.app/24/236-2ddc-91c8d6.png
 
 
 Fonts : https://fonts.google.com/selection/embed

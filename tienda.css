@@ -25,14 +25,14 @@ nav ul {
 
 
  p{
-    margin: 20px;
+    margin: 1.25rem;
     /* letter-spacing: 1.2px; */
 }
 
 .carro {
-    margin-top: 80px;
-    width: 50px; 
-    height: 50px;
+    margin-top: 5rem;
+    width: 3.125rem; 
+    height: 3.125rem;
     animation: moverCarro 15s linear infinite;
   }
   
@@ -41,15 +41,15 @@ nav ul {
       transform: translateX(0); /* El carrito comienza desde la izquierda */
     }
     100% {
-      transform: translateX(calc(100vw - 50px)); /* El carrito se traslada hasta el final de la pantalla */
+      transform: translateX(calc(100vw - 3.125rem)); /* El carrito se traslada hasta el final de la pantalla */
     }
   }
 
 
 
 .contenedor{
-    max-width: 1200px;
-    padding: 10px;
+    max-width: 75rem;
+    padding: .625rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -60,17 +60,17 @@ nav ul {
 .contenedor .contenedor-items{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap:30px;
+    grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr));
+    gap:1.875rem;
     width: 100%;
     transition: .3s;
 }
 .contenedor .contenedor-items .item{
-    max-width: 250px;
+    max-width: 15.625rem;
     margin: auto;
-    border: 1px solid #666;
-    border-radius: 10px;
-    padding: 20px;
+    border: .0625rem solid #666;
+    border-radius: .625rem;
+    padding: 1.25rem;
     transition: .3s;
     background-color: #f7f5f5;
 }
@@ -78,7 +78,7 @@ nav ul {
     width: 100%;
 }
 .contenedor .contenedor-items .item:hover{
-    box-shadow: 0 0 10px #666;
+    box-shadow: 0 0 .625rem #666;
     scale: 1.05;
 }
 .contenedor .contenedor-items .item .titulo-item{
@@ -91,17 +91,17 @@ nav ul {
     display: block;
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .contenedor .contenedor-items .item .boton-item{
     display: block;
-    margin: 10px auto;
+    margin: .625rem auto;
     border: none;
     background-color: black;
     color: #fff;
-    padding: 5px 15px;
-    border-radius: 5px;
+    padding: .3125rem .9375rem;
+    border-radius: .3125rem;
     cursor: pointer;
 }
 
@@ -114,7 +114,7 @@ nav ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: .625rem;
   }
   
   .copyright {

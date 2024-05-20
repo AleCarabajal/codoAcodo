@@ -3,14 +3,16 @@ URL Github Repo : https://github.com/AleCarabajal/codoAcodo.git
 URL de Netlify : https://comsion24138grupo7.netlify.app/
 
 Sketch Bocetos Web : 
--Boceto inicio: https://share.sketchpad.app/24/6b8-2a26-90ab7c.png
--Boceto inicio movil: https://share.sketchpad.app/24/4b6-bd30-a5a0c0.png
--Boceto tratamientos: https://share.sketchpad.app/24/94d-7a41-db4397.png
+-Boceto inicio: https://share.sketchpad.app/24/222-0c5e-bc971c.png
+-Boceto inicio movil: https://share.sketchpad.app/24/625-7a49-dccedc.png
+-Boceto tratamientos: https://share.sketchpad.app/24/d54-4874-760187.png
 -Boceto tratamientos movil: https://share.sketchpad.app/24/60e-ddaf-6157c3.png
--Boceto turno: https://share.sketchpad.app/24/eb7-4ac4-863665.png
+-Boceto turno: https://share.sketchpad.app/24/834-0fc7-b32f05.png
 -Boceto turno movil: https://share.sketchpad.app/24/b0a-ada8-0dd725.png
--Boceto tienda: https://share.sketchpad.app/24/05e-2857-c6e010.png
+-Boceto tienda: https://share.sketchpad.app/24/d95-11af-e60e0c.png
 -Boceto tienda movil: https://share.sketchpad.app/24/236-2ddc-91c8d6.png
+-Boceto Integrantes: https://share.sketchpad.app/24/a4e-436a-5aa289.png
+-Boceto Integrantes movil: https://share.sketchpad.app/24/a10-01c9-a648cf.png
 
 
 Fonts : https://fonts.google.com/selection/embed
